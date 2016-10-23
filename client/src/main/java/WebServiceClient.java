@@ -1,10 +1,10 @@
 import cn.wizzer.webservice.AddHeaderInterceptor;
 import cn.wizzer.webservice.HelloWordImplPortType;
-import org.apache.cxf.endpoint.Client;
+/*import org.apache.cxf.endpoint.Client;
 import org.apache.cxf.frontend.ClientProxy;
 import org.apache.cxf.frontend.ClientProxyFactoryBean;
 import org.apache.cxf.interceptor.LoggingInInterceptor;
-import org.apache.cxf.interceptor.LoggingOutInterceptor;
+import org.apache.cxf.interceptor.LoggingOutInterceptor;*/
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
@@ -35,7 +35,7 @@ public class WebServiceClient {
         helloWordImplPortType.sayHello("Wrwrwr");*/
 
 
-        ClientProxyFactoryBean factory = new ClientProxyFactoryBean();
+      /*  ClientProxyFactoryBean factory = new ClientProxyFactoryBean();
 
         factory.setServiceClass(HelloWordImplPortType.class);
         factory.setAddress("http://localhost:9090/nutzwk/service/helloWordImpl");
@@ -51,7 +51,14 @@ public class WebServiceClient {
         String sfs = helloWordImplPortType.sayHello("Sfsf");
 
         long s1 = new Date().getTime();
-        System.out.println(s1 - s);
+        System.out.println(s1 - s);*/
+
+
+
+
+        ///test001fdgdsgegfdsgfsg
+
+
 
 
     }
